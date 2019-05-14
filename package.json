@@ -1,0 +1,33 @@
+{
+    "name": "storybook-iframe-urls",
+    "version": "1.0.0",
+    "description": "Click on Component iframe URLs from Storybook.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tomchinery/storybook-iframe-urls.git"
+    },
+    "keywords": [
+        "storybook",
+        "addon",
+        "iframe",
+        "urls"
+    ],
+    "author": "Tom Chinery <tom@tomchinery.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tomchinery/storybook-iframe-urls/issues"
+    },
+    "homepage": "https://github.com/tomchinery/storybook-iframe-urls#readme",
+    "devDependencies": {
+        "@storybook/addons": "^5.0.11",
+        "@types/webpack-env": "^1.13.9",
+        "react": "^16.8.6"
+    },
+    "peerDependencies": {
+        "react": "*"
+    }
+}
